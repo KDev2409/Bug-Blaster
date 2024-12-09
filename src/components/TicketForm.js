@@ -18,7 +18,7 @@ export default function TicketForm() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // preventing the default action of reloding the webpage when submit button is clicked.
 
     const ticketData = {
       id: new Date().toISOString(),
